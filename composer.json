@@ -1,0 +1,8 @@
+{
+  "name": "megagroup/api",
+  "description": "Megagroup API gate",
+  "license": "MIT",
+  "require": {
+    "php": "*"
+  }
+}
