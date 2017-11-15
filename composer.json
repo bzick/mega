@@ -1,8 +1,33 @@
 {
-  "name": "megagroup/api",
-  "description": "Megagroup API gate",
-  "license": "MIT",
+  "name": "megagroup/orc",
+  "description": "Orchestrator",
+  "license": "proprietary",
   "require": {
-    "php": "*"
-  }
+    "megagroup/commondo-mage": "*",
+    "guzzlehttp/guzzle": "*",
+    "koda/koda": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Orc\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "name": "megagroup/mage",
+      "type": "path",
+      "url": "/Users/bzick/Dev/Mage"
+    },
+    {
+      "name": "megagroup/commondo-mage",
+      "type": "path",
+      "url": "/Users/bzick/Dev/CommonMage"
+    },
+    {
+      "name": "koda/koda",
+      "type": "path",
+      "url": "/Users/bzick/Dev/Koda"
+    }
+  ],
+  "minimum-stability": "dev"
 }
